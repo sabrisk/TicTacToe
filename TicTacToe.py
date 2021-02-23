@@ -65,7 +65,7 @@ def get_row(board, row_index):
 	return row_arr
 	
 # Returns an array representing
-# the forward diaganol ex: /
+# the forward diagonal ex: /
 def get_forward_diagonal(board):
 	curr_row_index = BOARD_SIZE - 1
 	curr_col_index = 0
@@ -79,7 +79,7 @@ def get_forward_diagonal(board):
 	return row_arr
 
 # Returns an array representing
-# the forward diaganol ex: \
+# the forward diagonal ex: \
 def get_backward_diagonal(board):
 	curr_row_index = 0
 	curr_col_index = 0
@@ -93,7 +93,7 @@ def get_backward_diagonal(board):
 	return row_arr	
 
 
-# Returns True if the row, column or diaganol
+# Returns True if the row, column or diagonal
 # passed as an array won. Otherwise, returns False
 def is_winner(array):
 		
